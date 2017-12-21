@@ -1,0 +1,57 @@
+cd ~                          # change directories to your home directory
+mkdir version-control         # make version-control directory
+cd version-control            # go to version-control directory
+mkdir reflections             # create reflections directory
+cd reflections                # go to reflections directory
+subl lesson_1_reflections.txt # launch sublime with file called lesson_1_reflections.txt (you can replace subl with another editor here if you prefer a different one)
+
+pwd # print working directory - shows what directory you are in
+ls  # list the files in this directory
+
+if git does not detect your coordenates do the follow
+look for environment variables on windows 10 search/ environment variables botton/User Variables\ path\ botton edit
+
+git log = muestra los cambios hecho en el repositorio con el nombre del responsable del cambio
+y la fecha adjunto a un comentario.
+
+git diff = toma dos ID de commits y compara sus diferencias comparando el primero ID commit contra el segundo ID 
+y las lineas agregadas se simbolisan con un + y las lineas que se quitaron como un - en el segundo ID commit.Ex git diff b0678b161fcf74467ed3a63110557e3d6229cfa6 f19cb1b80fe27e938e4d72770ca0a42f25e99ecc 
+
+git clone = Copia un repocitorio desde una direccion especificada de URL o (un directorio normal)*. Ex git clone https://github.com/udacity/asteroids.git
+
+git checkout = actualisa tu version a una version especificada con el ID commit motrado en el git log.
+
+scp = Secure copy es un metodo que se usa similara git clone en command prompt.
+
+para poner un color en el texto en git tienes que usar el comando
+
+git config --global color.ui auto
+
+
+nuevos comandos
+
+git init
+con el puedes convertir una carpeta en un repositorio.
+
+git add
+con git add  creas un staging area en la cual se crea el commit a subir, pero en mi version para subir el commit hay que llamar git commit despues
+
+git status
+estatus del repositorio respecto a su contenido en stage estado y archivos no hechos commits.
+
+nuevos conceptos
+
+staging area
+es el estado intermedio en el cual re crea el commit con los archivos deseados por el usuario para ser committed al repo.
+
+working directory
+
+
+
+git commit
+	esto se usa para subir al repo el contenido en staging area
+  	si se tiene un editor de texto configurado en el git bash con simplemente llamar git commit abrira una ventana el editor para 
+  	pedirte un comentario si no se le pone uno al cerrarse, el git commit sera como rechazado.
+
+git commit -m "comentario en git"
+	en este caso si no se tiene un editor de texto configurado en git bash,en necesario que el comentario se haga en el mismo commit usando el comando (-m) antes del comentario y despues de git commit como en el encabezado.
