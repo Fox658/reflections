@@ -1,4 +1,4 @@
-Al instalar python hay que acegurar marcar el path en la instalacion para evitar problemas de identificacion de codigo en el medio virtual de python en windows.
+Al installar python hay que asegurar marcar el path en la instalacion para evitar problemas de identificacion de codigo en el medio virtual de python en windows.
 Para checar si tienes python en tu sistema simplemente abres la terminal y escribes python el sistema lo reconocera te dara la version que tienes activa y luego pasara a una emulacion del ambiente de codigo en la misma terminal, para salir de el usualmente de hace con control+c, pero en mi caso por alguna razon me da KeyboardInterrupt exception asi que debo usas control+z o escribir "exit()".
 Paginas en Python son mas seguras que las normales escritas en JavaScript. tiene un admin system integrado el database puesde estar en mysql o postgres pero viene integrado con SQLite3.
 Es un sistema de produccion lista.
