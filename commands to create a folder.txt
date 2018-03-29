@@ -55,3 +55,5 @@ git commit
 
 git commit -m "comentario en git"
 	en este caso si no se tiene un editor de texto configurado en git bash,en necesario que el comentario se haga en el mismo commit usando el comando (-m) antes del comentario y despues de git commit como en el encabezado.
+
+	

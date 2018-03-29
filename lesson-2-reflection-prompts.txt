@@ -7,37 +7,41 @@ You should see that now both files are listed as untracked files.
 Why do you need to do it?
 
 
-to create a working enviroment which is use to save and track all your work progress.
+	to create a working enviroment which is use to save and track all your work progress.
 
 
 How is the staging area different from the working directory and the repository?
-the satging area it is the intermediary between the working directory and the repository to create a bridge that
-contain the files that will be commited to the repo from de working directory.
+	the satging area it is the intermediary between the working directory and the repository to create a bridge that
+	contain the files that will be commited to the repo from de working directory.
 
 
 What value do you think it offers?
 
 
 
-How can you use the staging area to make sure you have one commit per logical
+How can you use the staging area to make sure you have one commit per logical 
 change?
 
 
+	to know if i have something done already in the commit different from the actual staging area.
 
 What are some situations when branches would be helpful in keeping your history
 organized? 
+	when trying new experimental features while fixing problems, and diverging to another version from the original project.
 
 How would branches help?
 
 How do the diagrams help you visualize the branch structure?
+	it is a intuitive way to see the paths that your branches take, 
+	making it easier understand where your position at development is.
 
 
-What is the result of merging two branches together? 
+What is the result of merging two branches together? Why do we represent it in
+ the diagram the way we do?
 
-Why do we represent it in
-the diagram the way we do?
-
-
-
+	First we get the most of each branch, second  to make easier to understand the position of each branch and know what 
+	is out of reach or not.
 What are the pros and cons of Git's automatic merging vs. always doing merges
-manually?
+ manually?
+
+
