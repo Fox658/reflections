@@ -1,9 +1,0 @@
-rails
-me quede en la parte 1.3 del primer capitulo.
-me quede en box 1.3
-
-
-index.erb v1
-<pre>
-	<%=Cowsay.say("Hello", "Cow") %>
-</pre>
