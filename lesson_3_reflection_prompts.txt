@@ -3,7 +3,7 @@ local?
 
   
   
-Fill in your answer here
+Yes, i would use a remote repository rather than keeping it in my computer.
 
 
 
@@ -12,9 +12,8 @@ automatically
 stay up-to-date with your remote repository?
 
   
-  
-Fill in your answer here
 
+because it would be too big and too difficult to manage.
 
 
 Describe the differences between forks, clones, and branches.  When would you
@@ -22,9 +21,9 @@ use one instead of another?
 
  
    
-Fill in your answer here
-
-
+Forks make a copy of another repository con GitHub without clone localy and push again.
+Clones make a copy from a Github or other cloud repository to your pc.
+Branches make a copy from another repo con your computer.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
