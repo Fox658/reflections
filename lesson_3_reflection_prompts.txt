@@ -30,8 +30,8 @@ stored locally?
 
 
     
-Fill in your answer here
-
+Its benefit comes by the opportunity to have a reference that github can track off and compare to its
+copy.
 
 
 How would you collaborate without using Git or 
