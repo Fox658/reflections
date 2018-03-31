@@ -37,15 +37,14 @@ and what would be harder?
 I would collaborate by interchanging manualy the project, in a very impractical way.
 It's easier just to use Github or any other cloud workplace with others.
 It would be very hard to work with manualy with others and unproductive.
-   
-Fill in your answer here
-
 
 
 When would you want to make changes in a separate branch rather than 
-directly in
-master?  What benefits does each approach have?
+directly in master?  What benefits does each approach have?
 
- 
    
-Fill in your answer here
+When i'm trying a new feature it could be wise not to do it on the master branch
+and for the master branch i could have untouch al my progress until i finish to 
+polish the new feature to then merge it with the master branch.
+
+
