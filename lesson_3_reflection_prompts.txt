@@ -44,7 +44,7 @@ directly in master?  What benefits does each approach have?
 
    
 When i'm trying a new feature it could be wise not to do it on the master branch
-and for the master branch i could have untouch al my progress until i finish to 
+and for the master branch i could have untouch all my progress until i finish to 
 polish the new feature to then merge it with the master branch.
 
 
